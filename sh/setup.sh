@@ -12,7 +12,7 @@ sudo install -o root -g root -m 644 microsoft.gpg /etc/apt/trusted.gpg.d/
 sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
 sudo apt update
 sudo apt --assume-yes install code
-# manually install these extensions: markdownlint, Python
+# manually install these extensions: markdownlint, Python, SQLite
 
 # git install and setup
 sudo apt --assume-yes install git
