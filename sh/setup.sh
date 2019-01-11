@@ -37,3 +37,5 @@ python -m pip install wheel --upgrade
 python -m pip install pylint --upgrade
 python -m pip install autopep8 --upgrade
 python -m pip install pipreqs --upgrade
+python -m pip install Django -- upgrade
+python -m pip install awsebcli --upgrade
