@@ -39,3 +39,4 @@ python -m pip install autopep8 --upgrade
 python -m pip install pipreqs --upgrade
 python -m pip install Django -- upgrade
 python -m pip install awsebcli --upgrade
+python -m pip install django-tz-detect -- upgrade
