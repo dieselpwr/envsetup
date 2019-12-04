@@ -13,16 +13,19 @@ git config --global core.excludesfile "~/.gitignore"
 
 # python install
 sudo apt --assume-yes install python3.8
-sudo apt --assume-yes install python3-pip
-sudo python3.8 -m pip install pip --upgrade
-sudo python3.8 -m pip install setuptools --upgrade
-sudo python3.8 -m pip install pylint --upgrade
-sudo python3.8 -m pip install autopep8 --upgrade
-sudo python3.8 -m pip install Django -- upgrade
-sudo python3.8 -m pip install awsebcli --upgrade
+sudo apt --assume-yes install python3-venv
+sudo apt --assume-yes install python3.8-venv
+mkdir ~/SOURCE_DRIVE
+python3.8 -m venv ~/SOURCE_DRIVE/venv
+source ~/SOURCE_DRIVE/venv/bin/activate
+python -m pip install pip --upgrade
+python -m pip install setuptools --upgrade
+python -m pip install pylint --upgrade
+python -m pip install autopep8 --upgrade
+python -m pip install Django -- upgrade
+python -m pip install awsebcli --upgrade
 
 # vscode install
-mkdir ~/SOURCE_DRIVE
 # manually install Visual Studio Code from Ubuntu Software
 # manually install the Python extension
 # manually add SOURCE_DRIVE to workspace
