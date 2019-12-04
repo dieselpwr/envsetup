@@ -19,8 +19,6 @@ git config --global core.excludesfile "~/.gitignore"
 sudo apt --assume-yes install python3.8
 sudo apt --assume-yes install python3-venv # weird but needed
 sudo apt --assume-yes install python3.8-venv
-python -m pip install pip --upgrade
-python -m pip install setuptools --upgrade
 mkdir ~/SOURCE_DRIVE
 python3.8 -m venv ~/SOURCE_DRIVE/venv
 source ~/SOURCE_DRIVE/venv/bin/activate
