@@ -22,8 +22,11 @@ python -m pip install pip --upgrade
 python -m pip install setuptools --upgrade
 python -m pip install pylint --upgrade
 python -m pip install autopep8 --upgrade
-python -m pip install Django -- upgrade
 python -m pip install awsebcli --upgrade
+python -m pip install beautifulsoup4
+python -m pip install Django
+python -m pip install python-dateutil
+python -m pip install requests
 
 # sqlitebrowser install
 sudo apt --assume-yes install sqlitebrowser
