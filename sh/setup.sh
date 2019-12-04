@@ -25,6 +25,9 @@ python -m pip install autopep8 --upgrade
 python -m pip install Django -- upgrade
 python -m pip install awsebcli --upgrade
 
+# sqlitebrowser install
+sudo apt --assume-yes install sqlitebrowser
+
 # vscode install
 # manually install Visual Studio Code from Ubuntu Software
 # manually install the Python extension
