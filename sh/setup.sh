@@ -29,3 +29,8 @@ python -m pip install awsebcli --upgrade
 # manually install Visual Studio Code from Ubuntu Software
 # manually install the Python extension
 # manually add SOURCE_DRIVE to workspace
+# add the below settings to settings JSON
+# "workbench.startupEditor": "newUntitledFile",
+# "python.pythonPath": "/home/reguser/SOURCE_DRIVE/venv/bin/python",
+# "python.linting.pylintPath": "/home/reguser/SOURCE_DRIVE/venv/bin/pylint",
+# "python.formatting.autopep8Path": "/home/reguser/SOURCE_DRIVE/venv/bin/autopep8",
