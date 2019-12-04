@@ -13,12 +13,13 @@ git config --global core.excludesfile "~/.gitignore"
 
 # python install
 sudo apt --assume-yes install python3.8
-python3.8 -m pip install pip --upgrade
-python3.8 -m pip install setuptools --upgrade
-python3.8 -m pip install pylint --upgrade
-python3.8 -m pip install autopep8 --upgrade
-python3.8 -m pip install Django -- upgrade
-python3.8 -m pip install awsebcli --upgrade
+sudo apt --assume-yes install python3-pip
+sudo python3.8 -m pip install pip --upgrade
+sudo python3.8 -m pip install setuptools --upgrade
+sudo python3.8 -m pip install pylint --upgrade
+sudo python3.8 -m pip install autopep8 --upgrade
+sudo python3.8 -m pip install Django -- upgrade
+sudo python3.8 -m pip install awsebcli --upgrade
 
 # vscode install
 mkdir ~/SOURCE_DRIVE
