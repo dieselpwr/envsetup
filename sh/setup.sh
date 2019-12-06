@@ -31,6 +31,9 @@ python -m pip install requests
 # sqlitebrowser install
 sudo apt --assume-yes install sqlitebrowser
 
+# mysql workbench instll
+sudo apt --assume-yes install mysql-workbench
+
 # vscode install
 # manually install Visual Studio Code from Ubuntu Software
 # manually install the Python extension
