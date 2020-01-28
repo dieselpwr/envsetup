@@ -3,6 +3,7 @@
 # system update
 sudo apt update
 sudo apt --assume-yes upgrade
+sudo apt --assume-yes install xclip
 
 # git install and setup
 sudo apt --assume-yes install git
